@@ -1,0 +1,167 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.diskette {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    background-color: #373737;
+    flex-direction: column;
+    border-radius: 15px;
+    background: linear-gradient(to bottom left, transparent 5%, #393434 5%);
+    --shadow-color: hsl(210, 6%, 21%);
+    filter: drop-shadow( 10px 12px 20px var(--shadow-color));
+
+}
+
+#diskette-top {
+    height: 84%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#black-part {
+    width: 60%;
+    background-color: rgb(40, 37, 37);
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    justify-content: center;
+    margin-right: 5%;
+    --shadow-color4: hsl(0, 0%, 0%);
+    box-shadow: inset 1px 1px 20px var(--shadow-color4);
+
+}
+.esquina {
+    content: '';
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -500px;
+    right: -960px;
+    background: rgb(255 255 255);
+    transform-origin: 43% 15%;
+    transform: rotate(137deg);
+    z-index: -20;
+
+}
+
+#metal-piece {
+    width: 80%;
+    height: 95%;
+    border-radius: 0 0 13px 13px;
+    margin-right: -39px;
+    background-color: #CCC;
+    background: linear-gradient(0.25turn, rgb(165, 165, 159), #dbdedb, rgb(165, 165, 159));
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -0.7%;
+    --shadow-color2: hsl(216, 3%, 28%);
+    filter: drop-shadow(
+      0px 3px 0px var(--shadow-color2)
+    );
+}
+
+#black-little-part{
+    height: 70%;
+    width: 30%;
+    background-color: rgb(40, 37, 37);
+    margin-right: 20px;
+    margin-top: 10px;
+    border-radius: 10%;
+
+    --shadow-color4: hsl(0, 0%, 0%);
+    box-shadow: inset 1px 1px 20px var(--shadow-color4);
+}
+
+#paper-part {
+    background-color: rgb(230, 230, 218);
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-top: 11.163px;
+    border-radius: 10px 10px 0 0 ;
+    height: 100%;
+    margin-bottom: -38px;
+    padding-top: 20px;
+    --shadow-color3: rgb(112, 112, 106);
+    box-shadow: inset 1px 1px 20px var(--shadow-color3);
+    
+}
+/* p {
+    
+    text-align: left;
+    margin-right: 28%;
+    margin-top: 9%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: small;
+} */
+#imagen{
+    background-image: url(./assets/Canon_logo_vector.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 136px;
+    height: 58px;
+}
+hr {
+    height: 0.05%;
+    background-color: grey;
+    margin-bottom: 31.5px;
+    z-index: 5;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    
+  }
+
+.diskette-bottom{
+    height: 51.5%;
+    margin-top: 11.7%;
+    margin-bottom: -8px;
+    justify-content: end;
+    position: relative;
+
+    
+}
+#yellow-part  {
+    
+    height: 41px;
+    background-color: rgb(183 14 14);
+    margin-top: -50px;
+    margin-bottom: 1.6%;
+    --shadow-color3: hsl(0, 40%, 11%);
+    box-shadow: inset 1px 0px 5px 0px var(--shadow-color3);
+
+}
+ 
+.lil-squares {
+    display:inline-flex;
+    flex-direction: row;
+    height: 20%;
+    justify-content: space-between;
+    margin-left: 4%;
+    margin-right: 4%;
+    
+}
+
+#little-square-left {
+    justify-content: flex-start;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(183 14 14);
+    --shadow-color3: hsl(0, 40%, 11%);
+    box-shadow: inset 5px 5px 5px var(--shadow-color3);
+}
+
+#little-square-right {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(183 14 14);
+    --shadow-color3: hsl(0, 40%, 11%);
+    box-shadow: inset 5px 5px 5px var(--shadow-color3);
+}
+
+
